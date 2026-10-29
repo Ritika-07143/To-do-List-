@@ -1,0 +1,112 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>A Little More Organized</title>
+
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+
+    <main class="app">
+        
+<!-- Personal brand header -->
+<header class="site-header">
+    <a href="YOUR_PORTFOLIO_URL" class="brand-mark"
+       aria-label="RJ — Visit my portfolio">
+        RJ<span>.</span>
+    </a>
+
+    <a href="YOUR_PORTFOLIO_URL" class="portfolio-link">
+        MY PORTFOLIO ↗
+    </a>
+</header>
+
+
+        <!-- Screen 1: Motivational quote -->
+        <section id="quote-screen" class="screen">
+            <p class="eyebrow">A LITTLE SPACE FOR YOURSELF</p>
+
+            <div class="quote-card">
+                <p class="small-label">A NOTE FOR TODAY</p>
+
+                <h1>A little progress, every day.</h1>
+
+                <p id="quote-text">
+                    Small steps still move you forward.
+                </p>
+
+                <p id="quote-author">— A gentle reminder</p>
+
+                <button id="next-quote-btn" type="button">
+                    Another thought
+                </button>
+
+                <button id="begin-btn" type="button">
+                    Let's begin
+                </button>
+            </div>
+
+            <p class="footer-note">
+                Take a breath. There's no need to rush.
+            </p>
+        </section>
+
+
+        <!-- Screen 2: To-do list -->
+        <section id="todo-screen" class="screen hidden">
+            <p class="eyebrow">YOUR PERSONAL JOURNAL</p>
+
+            <div class="todo-card">
+                <p class="small-label">A FRESH START</p>
+
+                <h1>Today's little things.</h1>
+
+                <p>One thing at a time. You've got this.</p>
+
+                <form id="todo-form">
+                    <input
+                        type="text"
+                        id="todo-input"
+                        placeholder="What would you like to do?"
+                        aria-label="New task"
+                        required
+                    >
+
+                    <button type="submit">Add task</button>
+                </form>
+
+                <p id="task-count">0 tasks remaining</p>
+
+                <ul id="task-list"></ul>
+
+                <button id="back-btn" type="button">
+                    Back to my journal
+                </button>
+            </div>
+        </section>
+
+<!-- Personal brand footer -->
+<footer class="site-footer">
+    <p class="footer-credit">
+        DESIGNED &amp; DEVELOPED BY RITIKA JAIN
+    </p>
+
+    <a href="YOUR_PORTFOLIO_URL" class="footer-portfolio">
+        Explore my portfolio ↗
+    </a>
+
+    <p class="footer-project">
+        A personal learning project · 2024
+    </p>
+</footer>
+
+    </main>
+
+</body>
+</html>
